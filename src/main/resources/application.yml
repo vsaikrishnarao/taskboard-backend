@@ -8,5 +8,11 @@ spring:
       ddl-auto: update
     show-sql: true
 
+frontend:
+  url: ${FRONTEND_URL}
+
+jwt:
+  secret_key: H_QeUmAczHfkcGGrgyDGVvGnHDDvcthMufahi1ZwW2w
+
 server:
   port: 8080
